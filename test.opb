@@ -1,0 +1,11 @@
+1 iv0_b_0 2 iv0_b_1 >= 2
+1 ~iv0_b_0 2 ~iv0_b_1 >= 1
+1 iv0_b_0 2 iv0_b_1 0 ~iv0_ge_0 >= 0
+1 ~iv0_b_0 2 ~iv0_b_1 4 iv0_ge_0 >= 4
+1 iv0_b_0 2 iv0_b_1 1 ~iv0_ge_1 >= 1
+1 ~iv0_b_0 2 ~iv0_b_1 3 iv0_ge_1 >= 3
+1 iv0_ge_0 1 ~iv0_ge_1 >= 1
+2 ~iv0_eq_0 1 iv0_ge_0 1 ~iv0_ge_1 >= 2
+1 iv0_eq_0 1 ~iv0_ge_0 1 iv0_ge_1 >= 1
+1 iv0_b_0 2 iv0_b_1 4 ~iv0_eq_0 >= 1
+1 ~iv0_b_0 2 ~iv0_b_1 4 ~iv0_eq_0 >= 2
